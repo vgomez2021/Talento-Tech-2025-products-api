@@ -1,0 +1,28 @@
+{
+  "name": "products-api",
+  "version": "1.0.0",
+  "description": "API Rest para gestión de productos con autenticación JWT y Firebase",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "api",
+    "rest",
+    "products",
+    "firebase",
+    "jwt"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^4.21.2",
+    "firebase": "^11.10.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
